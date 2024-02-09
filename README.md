@@ -1,5 +1,5 @@
 ## Bhavaharnath_AIE22162
-## q-1
+## Q-1
 ```
 Function euclidean_distance(v1, v2):
     if length of v1 is not equal to length of v2:
@@ -42,7 +42,7 @@ Print "Manhattan distance:" followed by Manhattan
 ## Explination
 This Python code presents functions to calculate Euclidean and Manhattan distances between two vectors v1 and v2. It prompts  the user to input the coordinates of two vectors, calculates the distance and finally, the results are printed. The `get_vector_from_input()` function gets user input for vector coordinates The `euclidean_distance()` function calculates the Euclidean distance between two vectors, and the `manhattan_distance()` function computes the Manhattan distance. If the dimensions of the input vectors are not matched a `ValueError` is raised. 
 
-## q-2
+## Q-2
 
 ```
 function euclidean_distance(v1, v2):
@@ -81,7 +81,7 @@ print("Predicted class:", result)
 ## Explination
 In the above python code , The `euclidean_distance` function computes the Euclidean distance between two vectors v1 and v2. The `get_neighbors` function calculates distances between the test instance and all training instances, sorts them by distance and class label and returns the sorted list. `Knn_classifier` function uses `get_neighbors` operation to select `k_value` closest neighbors.The KNN classifier predicts the class label of `test_instance` by looking at the majority class among `k_value` nearest neighbors in `training_data` which is then printed.
 
-## q-3
+## Q-3
 
 ```
 FUNCTION label_encode_categorical(data):
@@ -107,7 +107,7 @@ PRINT "Numeric data after label encoding:", numeric_data
 ## Explination
 In the above python code , The ` label_encode categorical` function iterates through each value in the input data. It assigns an unique numeric label to each unique categorical literal of the input, using an incremented counter. The function then returns a list where each list element is the assigned numeric label corresponding to the respective categorical value in the input data. It prints the original categorical data and also the corresponding numeric labels obtained by label encoding.
 
-## q-4
+## Q-4
 
 ```
 function one_hot_encoding(data):
